@@ -11,15 +11,5 @@ export const metadata: Metadata = {
 
 // 로그인 페이지
 export default function LoginPage() {
-  return (
-    <div className="flex flex-col gap-4">
-      <div className="text-center">
-        <h1 className="text-2xl font-bold tracking-tight">로그인</h1>
-        <p className="text-sm text-muted-foreground mt-1">
-          이메일과 비밀번호를 입력하세요.
-        </p>
-      </div>
-      <LoginForm />
-    </div>
-  );
+  return <LoginForm />;
 }

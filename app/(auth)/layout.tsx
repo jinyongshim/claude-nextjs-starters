@@ -14,10 +14,8 @@ export default function AuthLayout({
         <div className="flex justify-center">
           <Logo href="/" />
         </div>
-        {/* 폼 카드 */}
-        <div className="rounded-xl border bg-background shadow-sm p-6">
-          {children}
-        </div>
+        {/* 폼 카드 (Card 컴포넌트 내부에서 처리) */}
+        {children}
         {/* 하단 안내 */}
         <p className="text-center text-xs text-muted-foreground">
           계속 진행하면{" "}
